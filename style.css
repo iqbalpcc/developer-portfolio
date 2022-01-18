@@ -1,9 +1,16 @@
 body{
     font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    
 }
 
 h1{
-    font-size: 45px;
+    font-size: 50px;
+}
+
+h3{
+    font-size: 1.5em;
 }
 
 .orange-color{
@@ -12,4 +19,13 @@ h1{
 
 section{
     display: flex;
+}
+
+.width-setup{
+    width: 50%;
+    padding-left: 50px;
+}
+
+.width-setup img {
+    width: 80%;
 }
